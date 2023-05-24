@@ -1,0 +1,11 @@
+@import 'css/global/componentes.css';
+@import 'css/global/global.css';
+@import 'css/global/tipografia.css';
+@import 'css/global/cores.css';
+
+
+@import "css/secao1-dds-captura.css";
+@import "css/secao2-dds-captura.css";
+@import "css/secao3-dds-captura.css";
+@import "css/secao4-dds-captura.css";
+@import "css/secao5-dds-captura.css";

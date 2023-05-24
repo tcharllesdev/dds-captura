@@ -1,0 +1,156 @@
+.dds-captura-hero-bg {
+  background-image: url("./img/hero-greek2.webp");
+  height: 900px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+.hero-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.dds-captura-hero > span {
+  display: block;
+  line-height: 1.3;
+  max-width: 400px;
+}
+
+.dds-captura-hero > h1 {
+  max-width: 575px;
+  margin: 8px 0 12px 0;
+}
+
+.dds-captura-hero > p {
+  max-width: 544px;
+  margin-bottom: 12px;
+}
+
+.dds-evento-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.dds-evento-infos div {
+  display: flex;
+  align-items: first baseline;
+  gap: 4px;
+}
+/*FORM*/
+._form {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+._submit {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  width: 280px !important;
+  border-radius: 4px !important;
+}
+
+#_form_6466DA5245EC6_ ._form_element input[type="text"],
+#_form_6466DA5245EC6_ ._form_element input[type="date"],
+#_form_6466DA5245EC6_ ._form_element select,
+#_form_6466DA5245EC6_ ._form_element textarea:not(.g-recaptcha-response) {
+  width: 280px !important;
+}
+
+/**/
+
+.dds-seguro {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .dds-captura-hero-bg {
+    background-image: url("./img/hero-greek-mobile2.webp");
+    height: 1180px;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+  .hero-logo {
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .dds-captura-hero-bg {
+    height: 1240px;
+  }
+  .hero-logo {
+    gap: 4px;
+  }
+  .hero-logo-dds {
+    max-width: 60px;
+  }
+  .hero-logo-desafio {
+    max-width: 260px;
+  }
+  .dds-captura-hero > h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+  .dds-captura-hero p {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 394px) {
+  .dds-captura-hero-bg {
+    height: 1290px;
+  }
+  .hero-logo-desafio {
+    max-width: 240px;
+  }
+}
+@media (max-width: 383px) {
+  .dds-captura-hero-bg {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 361px) {
+  .dds-captura-hero-bg {
+    height: 1330px;
+  }
+  .hero-logo-desafio {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 335px) {
+  .dds-captura-hero-bg {
+    height: 1360px;
+  }
+}
+
+@media (max-width: 330px) {
+  ._submit {
+    width: 250px !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .dds-captura-hero-bg {
+    height: 1400px;
+  }
+  .hero-logo-dds {
+    max-width: 40px;
+  }
+  .hero-logo-desafio {
+    max-width: 220px;
+  }
+}

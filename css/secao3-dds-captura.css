@@ -1,0 +1,168 @@
+.dds-captura-aulas a {
+  margin-top: 32px;
+  max-width: 280px;
+}
+
+.dds-captura-aulas > h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.dds-captura-aulas-item {
+  max-width: 540px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 20px 30px 20px 20px;
+}
+
+.dds-captura-aulas ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.dds-captura-aulas-item1 {
+  position: relative;
+}
+.dds-captura-aulas-item1::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/iceberg.svg");
+  width: 120px;
+  height: 120px;
+  top: -49px;
+  right: -46px;
+}
+
+.dds-captura-aulas-item2 {
+  position: relative;
+}
+.dds-captura-aulas-item2::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/step.svg");
+  width: 118px;
+  height: 118px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item3 {
+  position: relative;
+}
+.dds-captura-aulas-item3::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/desire.svg");
+  width: 116px;
+  height: 116px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item4 {
+  position: relative;
+}
+.dds-captura-aulas-item4::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/fear.svg");
+  width: 120px;
+  height: 120px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item5 {
+  position: relative;
+}
+.dds-captura-aulas-item5::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/top-secret.svg");
+  width: 117px;
+  height: 117px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item6 {
+  position: relative;
+}
+.dds-captura-aulas-item6::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/magic-ball.svg");
+  width: 117px;
+  height: 117px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item7 {
+  position: relative;
+}
+.dds-captura-aulas-item7::after {
+  content: "";
+  position: absolute;
+  background-image: url("./img/icons/self.svg");
+  width: 120px;
+  height: 120px;
+  top: -49px;
+  right: -46px;
+}
+.dds-captura-aulas-item span {
+  display: flex;
+  align-items: self-start;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.dds-captura-aulas-item span img {
+  margin-top: 2px;
+}
+.dds-captura-aulas-item h2 {
+  font-size: 1.25rem;
+}
+.dds-captura-aulas-item h1 {
+  margin-bottom: 15px;
+}
+.dds-captura-aulas-item > p {
+  position: relative;
+}
+.dds-captura-aulas-item > p::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: #cfcfcf;
+  top: -10px;
+  left: 0;
+}
+
+@media (max-width: 450px) {
+  .dds-captura-aulas-item h2 {
+    font-size: 1.125rem;
+  }
+  .dds-captura-aulas-item h1 {
+    font-size: 1.25rem;
+  }
+  .dds-captura-aulas-item p {
+    font-size: 1rem;
+  }
+  .dds-captura-aulas-item1::after {
+    right: -20px;
+  }
+  .dds-captura-aulas-item2::after {
+    right: -15px;
+  }
+  .dds-captura-aulas-item3::after {
+    right: -20px;
+  }
+  .dds-captura-aulas-item4::after {
+    right: -25px;
+  }
+  .dds-captura-aulas-item5::after {
+    right: -25px;
+  }
+  .dds-captura-aulas-item6::after {
+    right: -25px;
+  }
+  .dds-captura-aulas-item7::after {
+    right: -20px;
+  }
+}
